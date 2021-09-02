@@ -3,7 +3,43 @@
   <head>
     <title>Yasir`s Page</title>
     <style>
-    .heading{
+body {
+cursor: help;
+background-color: #e5e5f7;
+opacity: 0.9;
+background-image: radial-gradient(#818181 0.5px, #e5e5f7 0.5px);
+background-size: 10px 10px;
+}
+.check-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.check-list li {
+  background: #fff;
+  position: relative;
+  list-style-type: none;
+  padding-left: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.check-list li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 5px;
+    height: 11px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: #00a8a8;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+}
+.heading{
     background-color: #CA8E35;
     color: wheat;
     font-size: 24px;
@@ -16,7 +52,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
     }
-    ul {
+/* ul {
       margin-left: 25%;
       margin-right: 25%;
 
@@ -27,7 +63,7 @@ ul li {
   background: #D5685D;
   padding: 5px;
   margin-left: 35px;
-}
+}*/
 .paragraph{
   margin-left: 25%;
   margin-right: 25%;
@@ -49,9 +85,9 @@ ul li {
       <h1>Hi ! My Name is Yasir</h1>
     </div>
     <div class="paragraph">
-      <p>A computer Information Systems student in <a href="https://www.uiw.edu/">UIW</a>.</p>
+      <p>A  <u>computer Information Systems</u> student in <a href="https://www.uiw.edu/">UIW</a>.</p>
     </div>
-    <ul>
+    <ul class="check-list">
       <li>Travel</li>
       <li>Photography</li>
       <li>Graphic Design</li>
