@@ -1,0 +1,25 @@
+.logoIcon{
+    float:left;
+    margin-right: 10px;
+}
+.mainText{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.bg-light {
+    margin-top: 5px;
+    padding-left: 10%;
+  }
+  
+  @media (min-width: 992px) {
+    .my-lg-0 {
+      display: block ruby;
+      margin-left: 20%;
+    }
+  }
+  .btn {
+    vertical-align:inherit;
+   }
+   .navbar-expand-md .navbar-nav {
+    margin-left: 10%;
+    }

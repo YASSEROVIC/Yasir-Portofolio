@@ -94,3 +94,31 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+.my-0 {
+  margin-left: 10%;
+  }
+.my-md-0 {
+    margin-left: 20%;
+    margin: auto;
+  }
+.btn-outline-primary {
+    margin-left: 25%;
+}
+.text-dark {
+  text-decoration-style: wavy;
+  text-decoration-color: #fd7e14;
+  }
+  .text-dark {
+    margin-right: 50px;
+    }
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(149, 149, 149, 0.46);
+      }
+
+  .logoName
+  {
+    font-family: 'Ephesis', cursive; 
+  }
+  .px-md-4 {
+    margin: 1%;
+    }
