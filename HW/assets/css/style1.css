@@ -23,3 +23,23 @@
    .navbar-expand-md .navbar-nav {
     margin-left: 10%;
     }
+  .dropdown-menu {
+    border: 1px solid rgba(16, 124, 241, 0.25);
+      }
+  .nav-item {
+     margin-left: 40px;
+      }
+  .btn.btn-secondary.btn-sm {
+      margin-right: 20%;
+      }
+      .btn-secondary:hover{
+        background-color: #107cf1;
+        }
+  .dropdown-item:hover {
+    background-color: #107cf1;
+    font-weight: bold;
+    color: #f8f9fa;
+  }
+  .nav-item:hover {
+    font-weight: bold;
+    }
