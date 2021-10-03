@@ -94,6 +94,13 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+.longPar {
+  width: 400px;
+  }
+.far.fa-smile-wink {
+    color: #CA8E35 ;
+    font-size: 30px;
+    }
 .my-0 {
   margin-left: 10%;
   }
@@ -101,9 +108,7 @@ body {
     margin-left: 20%;
     margin: auto;
   }
-.btn-outline-primary {
-    margin-left: 25%;
-}
+
 .text-dark {
   text-decoration-style: wavy;
   text-decoration-color: #fd7e14;
@@ -122,3 +127,198 @@ body {
   .px-md-4 {
     margin: 1%;
     }
+.menu1:hover {
+      background: #CA8E35;
+      color:#000;
+      font-weight: bold;
+      }
+/* UIW Button colors */
+.btn.uiw-btn {
+  border-color: #aa1010;
+  color: #aa1010;
+  font-weight: bold;
+  margin-right: 10%;
+  }
+.btn.uiw-btn:hover {
+    border-color: #aa1010;
+    color: #fff;
+    background: #89191c;
+    }
+.socialICon {
+      margin: 5px;
+      text-decoration: none;
+      color: #CA8E35;
+      }
+      body {
+        background-color: #9575CD
+    }
+    
+    .scroll {
+        color: #fff;
+        margin-top: 100px
+    }
+    
+    #toTopBtn {
+        position: fixed;
+        bottom: 26px;
+        right: 39px;
+        z-index: 98;
+        padding: 21px;
+        background-color: #CA8E35;
+    }
+    
+    .js .cd-top--fade-out {
+        opacity: .5
+    }
+    
+    .js .cd-top--is-visible {
+        visibility: visible;
+        opacity: 1
+    }
+    
+    .js .cd-top {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity .3s, visibility .3s, background-color .3s
+    }
+    
+    .cd-top {
+        position: fixed;
+        bottom: 20px;
+        bottom: var(--cd-back-to-top-margin);
+        right: 20px;
+        right: var(--cd-back-to-top-margin);
+        display: inline-block;
+        height: 40px;
+        height: var(--cd-back-to-top-size);
+        width: 40px;
+        width: var(--cd-back-to-top-size);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+        background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+        background-color: hsla(5, 76%, 62%, .8);
+        background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+    }
+.the-body {
+  margin: 40px 5%;
+  flex: none;
+      }
+.mb-1 {
+        margin-top: 10px;
+   }
+.roundedimg {
+  border-top-right-radius: 6.25rem;
+  border-bottom-right-radius: 6.25rem;
+  width: -moz-available;
+    }
+.index-card {
+      border-top-right-radius: 6.25rem !important;
+      border-bottom-right-radius: 6.25rem !important;
+      margin-right: 15%;
+      margin-top: 100px;
+  }
+footer {
+    margin-top: 60px;
+    }
+.copyright {
+  text-transform: uppercase;
+}
+
+  /* btn1 index style*/
+  .btn-1 {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* Created by http://grohit.com/  */
+.btn-1 a {
+  text-decoration: none;
+  border: 2px solid #010100;
+  padding: 15px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+span {
+  position: relative;
+  /* z-index coz when we put bg to before and after this span text will not be visible */
+  z-index: 3;
+}
+
+/* btn-1 homepage styles */
+
+.btn-1 a::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -2px;
+  width: calc(100% + 6px);
+  /*100% plus double the times left values*/
+  height: calc(100% - 10px);
+  background-color: #ffffff;
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+
+.btn-1 a:hover::before {
+  transform: scaleY(0);
+}
+
+.btn-1 a::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: -5px;
+  width: calc(100% - 10px);
+  /*100% plus double the times left values*/
+  height: calc(100% + 10px);
+  background-color: #ffffff;
+  transition: all 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+/* Created by http://grohit.com/  */
+
+.btn-1 a:hover::after {
+  transform: scaleX(0);
+}
+/* finish btn-1 */
+.list-group {
+  margin: 0 100px;
+}
+/* Button 1 styles */
+
+.nextButton {
+	height: 100%;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  margin-right: 15%;
+  margin-top: 50px;
+}
+.animated-word {
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	color: #202125;
+  cursor: pointer;
+  max-width: 156px; 
+  width: 100%; 
+  outline: 3px solid;
+  outline-color: rgba(71, 126, 232,0.5);
+  outline-offset: 25px;
+  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+  margin-bottom: 10%;
+
+}
+
+.animated-word:hover {
+	color: rgba(71, 126, 232, 0.7);
+  outline-color: rgba(71, 126, 232, 0);
+  outline-offset: 300px;
+}
